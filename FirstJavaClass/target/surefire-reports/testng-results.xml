@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="12" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26" started-at="2017-07-22T16:21:33Z" finished-at="2017-07-22T16:21:33Z">
+    <groups>
+      <group name="Regression">
+        <method signature="ClassA.regressionClassA()[pri:0, instance:testingGroups.ClassA@5ba23b66]" name="regressionClassA" class="testingGroups.ClassA"/>
+        <method signature="ClassB.regressionClassB()[pri:0, instance:testingGroups.ClassB@7cf10a6f]" name="regressionClassB" class="testingGroups.ClassB"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test" duration-ms="26" started-at="2017-07-22T16:21:33Z" finished-at="2017-07-22T16:21:33Z">
+      <class name="testingGroups.ClassB">
+        <test-method status="PASS" signature="regressionClassB()[pri:0, instance:testingGroups.ClassB@7cf10a6f]" name="regressionClassB" duration-ms="7" started-at="2017-07-22T11:21:33Z" finished-at="2017-07-22T11:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regressionClassB -->
+      </class> <!-- testingGroups.ClassB -->
+      <class name="testingGroups.ClassA">
+        <test-method status="PASS" signature="regressionClassA()[pri:0, instance:testingGroups.ClassA@5ba23b66]" name="regressionClassA" duration-ms="0" started-at="2017-07-22T11:21:33Z" finished-at="2017-07-22T11:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regressionClassA -->
+      </class> <!-- testingGroups.ClassA -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="0" started-at="2017-07-22T16:21:33Z" finished-at="2017-07-22T16:21:33Z">
+    <groups>
+      <group name="BVT">
+        <method signature="ClassA.buildValidationClassA()[pri:0, instance:testingGroups.ClassA@27f674d]" name="buildValidationClassA" class="testingGroups.ClassA"/>
+        <method signature="ClassB.buildValidationClassB()[pri:0, instance:testingGroups.ClassB@4c203ea1]" name="buildValidationClassB" class="testingGroups.ClassB"/>
+      </group> <!-- BVT -->
+    </groups>
+    <test name="Test" duration-ms="0" started-at="2017-07-22T16:21:33Z" finished-at="2017-07-22T16:21:33Z">
+      <class name="testingGroups.ClassB">
+        <test-method status="PASS" signature="buildValidationClassB()[pri:0, instance:testingGroups.ClassB@4c203ea1]" name="buildValidationClassB" duration-ms="0" started-at="2017-07-22T11:21:33Z" finished-at="2017-07-22T11:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buildValidationClassB -->
+      </class> <!-- testingGroups.ClassB -->
+      <class name="testingGroups.ClassA">
+        <test-method status="PASS" signature="buildValidationClassA()[pri:0, instance:testingGroups.ClassA@27f674d]" name="buildValidationClassA" duration-ms="0" started-at="2017-07-22T11:21:33Z" finished-at="2017-07-22T11:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buildValidationClassA -->
+      </class> <!-- testingGroups.ClassA -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
